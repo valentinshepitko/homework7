@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-menu {
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+    color: #2F281E;
+    font-family: Poppins, sans-serif;
+    margin: 0 15px;
+}
+
+
+.signinbutton {
+    color: #173A56;
+    background-color:white;
+    border: 1px solid #BCD0E5;
+    border-radius: 3px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    font-weight:600;
+    padding:11px 23px;
+    margin: 0 10px;
+    text-decoration:none;
+    transition: all .3s ease 0s;
+}
+
+.signinbutton:hover {
+    background-color:#FF9900;
+}
+.signinbutton:active {
+    position:relative;
+    top:1px;
+}
+
+.signupbutton {
+    color: white;
+    background-color:#FF9900;
+    border: 1px solid #BCD0E5;
+    border-radius: 3px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    font-weight:600;
+    padding:11px 23px;
+    text-decoration:none;
+    transition: all .3s ease 0s;
+}
+
+.signupbutton:hover {
+    background-color:white;
+    color: #173A56;
+}
+
+.signupbutton:active {
+    position:relative;
+    top:1px;
+}
+
+.hero-title {
+    font-size: 44px;
+    line-height: 55px;
+    padding-top: 50px;
+}
+
+h1 {
+ font-size: 44px;
+}
+
+p {
+    padding: 30px 20px 0 0;
+    margin: 0 0 50px;
+    font-size: 18px;
+    color: #544837;
+    line-height: 25px;
+}
+
+.hero-image {
+    justify-content: right;
+}
+
+.getstartbutton {
+    color: white;
+    background-color:#FF9900;
+    border-radius: 3px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    font-weight:600;
+    padding:0 40px;
+    text-decoration:none;
+    transition: all .3s ease 0s;
+}
+
+.getstartbutton:hover {
+    background-color:white;
+    color: #173A56;
+}
+
